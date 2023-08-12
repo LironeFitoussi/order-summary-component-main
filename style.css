@@ -33,6 +33,7 @@ main > img {
 }
 
 .order-summary {
+    text-align: center;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -40,15 +41,18 @@ main > img {
     gap: 1vh;
 }
 
-.order-summary > h1 {
-    text-align: center;
+.order-header {
     font-size: 24px;
     font-weight: 900;
     color: hsl(223, 47%, 23%);
+    margin: 0;
 }
 
-.order-summary > p {
+.order-info {
+    margin: 0;
     color: hsl(224, 23%, 55%);
+    padding: 0 3vw;
+    line-height: 4vh;
 }
 
 /* Color Palete */
