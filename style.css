@@ -42,7 +42,7 @@ main > img {
 }
 
 .order-header {
-    padding-top: 2vh;
+    padding-top: 1vh;
     font-size: 24px;
     font-weight: 900;
     color: hsl(223, 47%, 23%);
@@ -89,7 +89,7 @@ main > img {
 .chosen-plan > a {
     font-size: 14px;
     font-weight: 900;
-    color: hsl(260, 65%, 39%);
+    color: hsl(245, 75%, 52%);
 } 
 
 .buttons {
@@ -113,6 +113,26 @@ main > img {
     border-radius: .75rem;
     font-weight: 700;
     height: 8vh;
+    width: fit-content;
+    align-self: center;
+}
+
+/* Hover State */
+
+.chosen-plan > a:hover {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.7);
+} 
+
+.checkout-btn:hover {
+    background-color: hsla(245, 75%, 52%, 0.7);
+    cursor: pointer;
+}
+
+.cancel-btn:hover {
+    color: inherit;
+    font-weight: 900;
+    cursor: pointer;
 }
 /* Color Palete */
 
