@@ -38,10 +38,11 @@ main > img {
     display: flex;
     flex-direction: column;
     padding: 3vh;
-    gap: 1vh;
+    gap: 3vh;
 }
 
 .order-header {
+    padding-top: 2vh;
     font-size: 24px;
     font-weight: 900;
     color: hsl(223, 47%, 23%);
@@ -86,10 +87,15 @@ main > img {
 }
 
 .chosen-plan > a {
+    font-size: 14px;
     font-weight: 900;
     color: hsl(260, 65%, 39%);
 } 
 
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
 .checkout-btn {
     background-color: hsl(245, 75%, 52%);
     color: hsl(225, 100%, 98%);
@@ -97,9 +103,17 @@ main > img {
     border-radius: .75rem;
     font-weight: 700;
     height: 8vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
-cancel-btn
+.cancel-btn {
+    background-color: transparent;
+    color: hsl(224, 23%, 55%);
+    border: 0;
+    border-radius: .75rem;
+    font-weight: 700;
+    height: 8vh;
+}
 /* Color Palete */
 
 .blank {
