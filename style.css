@@ -134,6 +134,38 @@ main > img {
     font-weight: 900;
     cursor: pointer;
 }
+
+/* 1440px Media */
+@media screen and (min-width: 1440px) {
+    main {
+        width: 30%;
+    }
+
+    .order-summary {
+        flex-direction: column;
+        padding: 4vh 6vh;
+        gap: 2vh;
+    }
+
+    .order-header {
+        padding-top: 0;    
+    }
+
+    .order-info {
+        padding: 0;
+        line-height: 2.5vh;
+    }
+
+    .plan-type {
+        right: 2vw;
+    }
+
+    .checkout-btn {
+        height: 6vh;
+        font-size: 14px;
+    } 
+}
+
 /* Color Palete */
 
 .blank {
