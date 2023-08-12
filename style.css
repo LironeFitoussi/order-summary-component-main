@@ -68,14 +68,38 @@ main > img {
 .plan-type {
     display: flex;
     flex-direction: column;
+    position: relative;
+    right: 4vw;
 }
 
 .plan-type > p {
     margin: 0;
 }
 
+.period-plan {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
 
+.plan-price {
+    color: hsl(224, 23%, 55%);
+}
 
+.chosen-plan > a {
+    font-weight: 900;
+    color: hsl(260, 65%, 39%);
+} 
+
+.checkout-btn {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    border: 0;
+    border-radius: .75rem;
+    font-weight: 700;
+    height: 8vh;
+}
+
+cancel-btn
 /* Color Palete */
 
 .blank {
