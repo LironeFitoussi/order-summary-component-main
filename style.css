@@ -55,6 +55,27 @@ main > img {
     line-height: 4vh;
 }
 
+.chosen-plan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: .5rem;
+    background-color: hsl(225, 100%, 96%);
+    padding: 5%;
+}
+
+.plan-type {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-type > p {
+    margin: 0;
+}
+
+
+
 /* Color Palete */
 
 .blank {
