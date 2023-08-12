@@ -3,9 +3,13 @@
 
 * {
     font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     margin: 0; /*margin reset */
 }
 
@@ -14,6 +18,21 @@ main {
     flex-direction: column;
     align-items: center;
     border-radius: 3rem;
+}
+
+/* Color Palete */
+
+.blank {
+    /* - Pale blue */
+    color: hsl(225, 100%, 94%);
+    /* - Bright blue */
+    color: hsl(245, 75%, 52%);
+    /* - Very pale blue */
+    color: hsl(225, 100%, 98%);
+    /* - Desaturated blue */
+    color: hsl(224, 23%, 55%);
+    /* - Dark blue */
+    color: hsl(223, 47%, 23%);
 }
 
 /* Credits */
