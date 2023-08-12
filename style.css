@@ -7,17 +7,28 @@
 }
 
 body {
+    margin: 0; /*margin reset */
     display: flex;
     flex-direction: column;
     height: 100vh;
-    margin: 0; /*margin reset */
+    align-items: center;
+    justify-content: center;
 }
 
 main {
     display: flex;
+    width: 90%;
     flex-direction: column;
     align-items: center;
-    border-radius: 3rem;
+    border-radius: 1.5rem;
+}
+
+main > img {
+    width: 100%;
+}
+
+.order-summary {
+    padding: 3vh;
 }
 
 /* Color Palete */
